@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: cooptalis.leave.management@gmail.com
+    password: pvrnvwpsfwcsquxe
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+  kafka:
+    bootstrap-servers: localhost:9092
+
